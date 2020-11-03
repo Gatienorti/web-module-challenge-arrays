@@ -45,8 +45,8 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(originalFlavors){
-    return originalFlavors;
+function copy(arr){
+    return [...arr];
 }    
 
 
@@ -138,7 +138,7 @@ Use the removeFlavorByName function below to do the following:
 */
 
 function removeFlavorByName(a, b){
-    for(let i in a){
+    for(let i=0 ;i< a.length; i++){
         if (a[i]== b)
             a.splice(i,1)
        }
