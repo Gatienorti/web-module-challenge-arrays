@@ -45,8 +45,8 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(arr){
-    return [...arr];
+function copy(a){
+    return [...a];
 }    
 
 
@@ -64,8 +64,8 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(originalFlavors){
-    if(originalFlavors.length === 31){
+function is31Flavors(o){
+    if(o.length === 31){
         return true;
     }
     else{return false;}
